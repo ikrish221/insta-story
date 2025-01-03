@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'gilroy'
+	
+}
+html,body{
+	width:100%;
+	height:100%;
+	
+}
+body{
+	background-color:#F7930C;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#card{
+	height:480px;
+	overflow:hidden;
+	width:340px;
+	background-color:white;	
+	border-radius:10px;
+	position: relative;
+}
+#storyians{
+	white-space:nowrap;
+	overflow-x:auto;
+	overflow-y:hidden;
+	border-radius:10px;
+	height:120px;
+	width:100%;
+	padding:15px;
+	border-bottom: 1px solid #dada;
+
+}
+#storyians::-webkit-scrollbar{
+	display:none;
+}
+.story{
+	height:90px;
+	width:90px;
+	border-radius:50%;
+	border:2px solid hotpink;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:5px;
+	
+}
+.story img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+	object-position:center;
+
+}
+
+#full-screen{
+	height:100%;
+	width:100%;
+	position:absolute;
+	display:none;
+	background-position:cover;
+	background-size:center;
+
+}
+
+
+
+
+
+
